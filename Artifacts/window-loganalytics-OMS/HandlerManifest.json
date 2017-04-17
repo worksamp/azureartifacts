@@ -1,0 +1,14 @@
+[{
+  "version": 1.0,
+  "handlerManifest": {
+    "installCommand": "MMAExtensionInstall.exe",
+    "uninstallCommand": "MMAExtensionUninstall.exe",
+    "updateCommand": "MMAExtensionUpgrade.exe",
+    "enableCommand": "scripts\\Config-MMA.cmd Update",
+    "disableCommand": "scripts\\Config-MMA.cmd Disable",
+    "rebootAfterInstall": false,
+    "reportHeartbeat": true,
+    "updateMode": "UpdateWithInstall",
+    "resetCommand": "scripts\\Config-MMA.cmd Disable"
+  }
+}]
