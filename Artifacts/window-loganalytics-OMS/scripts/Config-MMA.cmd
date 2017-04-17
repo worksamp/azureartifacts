@@ -1,0 +1,1 @@
+%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Bypass .\Scripts\VMExtensionHandler.ps1 -Action %1
